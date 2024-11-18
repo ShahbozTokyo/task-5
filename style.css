@@ -1,0 +1,75 @@
+/* umumiy sahifaga berilgan xossalar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1-box va 2-box ga berilgan umumiy xossalar */
+.container {
+    height: 100vh;  
+    background-color: rgb(244, 230, 168);
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parent {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(209, 231, 255);
+    border: 2px solid rgb(127, 183, 210);
+    
+}
+
+.item {
+    padding: 20px;
+    background-color: rgb(233, 199, 192);
+    border: 2px solid rgb(234, 160, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 1-box ga berilgan xossalar */
+.x-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+}
+
+.child_1 {
+    padding: 20px;
+    justify-content: space-between;
+}
+.child_2 {
+    justify-content: center;
+}
+.child_2 > .item {
+    margin:15px;
+}
+.child_3 {
+
+    justify-content: flex-end;
+}
+.child_3 > .item {
+    margin: 8px; 
+}
+
+.box__1 {
+    align-items: center;
+}
+
+
+/* 2-box ga berilgan xossalar */
+.y-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
